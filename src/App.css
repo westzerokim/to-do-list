@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Rubik:ital,wght@1,900&family=Scheherazade+New&display=swap');
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{margin:0; padding: 0; font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Scheherazade New', serif; }
+.todo{margin:0 auto; width: 30%; height: 600px; border-radius: 10px; background: rgb(202, 238, 221);
+    text-align: center; margin-top: 3%;position: relative;}
+.list{list-style: none; width: 400px; height: 400px; margin: auto; margin-top: 20px; font-size: 1.5rem; overflow-y: scroll;
+font-weight: bold; text-align: left;  }
+h2{font-family: 'Rubik', sans-serif; font-size: 2rem;}
+
+.time{font-size: 2rem;font-family: 'Rubik', sans-serif ; margin-top: 30px;}
+button{width: 100px; height: 100px; border-radius: 50%; background: rgb(156, 238, 199); border: none; position: absolute; top:90%; z-index: 999;
+left: 50%; transform: translateX(-50%); font-size: 20px; color: #fff;
+}
+.input{border: none; border-radius: 10px; width: 80%;margin-top: 30px;}
+.top{margin-top: 20px;}
